@@ -1,0 +1,81 @@
+body {
+    /* border : 1px solid rgb(151, 13, 185); */
+    width:100%;
+    background-color: orchid;
+    background: url(https://images.unsplash.com/photo-1515445946706-a8024608d459?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max);
+    /* padding: 10px; */
+}
+th,tr {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border : 1px solid rgb(151, 13, 185)
+  }
+.image{
+    
+        width: 300px;
+        height: 200px;
+
+    
+}
+/* .dis{
+   background-color:mediumslateblue;
+} */
+.t1{
+    background-color: rgb(255, 0, 10);
+    border: 2px solid gray;
+}
+ img{
+    width: 30%;
+    height: 30%;
+}
+.t2{
+    background-color: rgb(14, 164, 184);
+}
+a{
+    color: rgb(0, 255, 10);
+}
+.t3{
+    background-color: springgreen;
+}
+.t4{
+    background-color: rgb(72, 128, 202);
+}
+
+a:hover
+{
+    color: blue;
+}
+
+h1
+{
+    color: rgb(255,0,255);
+    text-align: center;
+    width: 20%;
+    border: 2px solid red;
+    margin-left: 40%;
+    /*font-family: 'Baloo 2', cursive;*/
+    font-family: 'Dancing Script', cursive;
+
+}
+
+div img
+{
+   width: 20%;
+   height: 190px;
+   float: left;
+   margin:2.5%;
+
+
+}
+h4 a
+{
+    float: left;
+     width: 16%;
+     margin: 0% 2.5%;
+     padding-left: 4%;
+     margin-bottom: 3%;
+    background-color: red;
+}
+
