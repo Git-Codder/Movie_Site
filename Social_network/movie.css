@@ -1,11 +1,10 @@
-body {
+body,table {
     /* border : 1px solid rgb(151, 13, 185); */
     width:100%;
-    background-color: orchid;
-    background: url(https://images.unsplash.com/photo-1515445946706-a8024608d459?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max);
+    background-color: rgb(226, 148, 223);
     /* padding: 10px; */
 }
-th,tr {
+div,th,tr {
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -14,27 +13,26 @@ th,tr {
   }
 .image{
     
-        width: 300px;
-        height: 200px;
-
+        width: auto;
+        height:400px;
     
 }
 /* .dis{
    background-color:mediumslateblue;
 } */
 .t1{
-    background-color: rgb(255, 0, 10);
-    border: 2px solid gray;
+    background-color: rgb(66, 216, 103);
 }
  img{
+     /* float: left; */
     width: 30%;
-    height: 30%;
+    height: 400px;
 }
 .t2{
     background-color: rgb(14, 164, 184);
 }
 a{
-    color: rgb(0, 255, 10);
+    color: rgb(92, 10, 10);
 }
 .t3{
     background-color: springgreen;
@@ -42,40 +40,10 @@ a{
 .t4{
     background-color: rgb(72, 128, 202);
 }
-
-a:hover
-{
-    color: blue;
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
-
-h1
-{
-    color: rgb(255,0,255);
-    text-align: center;
-    width: 20%;
-    border: 2px solid red;
-    margin-left: 40%;
-    /*font-family: 'Baloo 2', cursive;*/
-    font-family: 'Dancing Script', cursive;
-
-}
-
-div img
-{
-   width: 20%;
-   height: 190px;
-   float: left;
-   margin:2.5%;
-
-
-}
-h4 a
-{
-    float: left;
-     width: 16%;
-     margin: 0% 2.5%;
-     padding-left: 4%;
-     margin-bottom: 3%;
-    background-color: red;
-}
-
+/* h1{
+    margin: 0 auto 0 auto ;
+} */

@@ -1,0 +1,42 @@
+body{
+    /* background-image:url("background_image.jpg"); */
+    background-color: rgb(238, 231, 232);
+    background-size: cover;
+    /* background-position: center; */
+}
+
+#normal{
+    color: rgb(144, 20, 168);
+}
+
+#brand{
+    font-weight: 800;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: mediumvioletred;
+}
+
+.welcome{
+    padding-top: 20%;
+    font-weight: 800;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10ex;
+    color: rgb(105, 32, 148);
+    text-align: center;
+}
+
+.text{
+    font-weight: 500;
+    
+    font-family: 'Times New Roman', Times, serif;
+    
+    color: rgb(24, 128, 177);
+    text-align: center;
+}
+
+#thank{
+    font-style: italic;
+    column-span: inherit;
+    color: rgb(224, 32, 96);
+}

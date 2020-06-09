@@ -1,0 +1,50 @@
+body,table {
+    /* border : 1px solid rgb(151, 13, 185); */
+    width:100%;
+    background-color: rgb(226, 148, 223);
+    /* padding: 10px; */
+}
+div,th,tr {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border : 1px solid rgb(151, 13, 185)
+  }
+.image{
+        align-content: center;
+        width: auto;
+        height:300px;
+    
+}
+/* .dis{
+   background-color:mediumslateblue;
+} */
+.t1{
+    background-color: rgb(66, 216, 103);
+}
+ img{
+     /* float: left; */
+    align-content: center;
+    width: auto;
+    height: 400px;
+}
+.t2{
+    background-color: rgb(14, 164, 184);
+}
+a{
+    color: rgb(92, 10, 10);
+}
+.t3{
+    background-color: springgreen;
+}
+.t4{
+    background-color: rgb(72, 128, 202);
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+/* h1{
+    margin: 0 auto 0 auto ;
+} */
