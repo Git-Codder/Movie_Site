@@ -1,0 +1,123 @@
+the social network
+{
+  title: 'The Social Network',
+  image: 'https://m.media-amazon.com/images/M/MV5BOGUyZDUxZjEtMmIzMC00MzlmLTg4MGItZWJmMzBhZjE0Mjc1XkEyXkFqcGdeQXVyMTMxODk2OTU@.jpg',
+  id: 'tt1285016'
+}
+The Social Network
+tt1285016
+{
+  id: 'tt1285016',
+  title: 'The Social Network ',
+  year: '2010',
+  length: '2h',
+  rating: '7.7',
+  rating_votes: '585689',
+  poster: 'https://m.media-amazon.com/images/M/MV5BOGUyZDUxZjEtMmIzMC00MzlmLTg4MGItZWJmMzBhZjE0Mjc1XkEyXkFqcGdeQXVyMTMxODk2OTU@.jpg',
+  plot: 'As Harvard student  creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea, and by the co-founder who was later squeezed out of the business.',
+  trailer: {
+    id: 'vi4152690201',
+    link: 'https://www.imdb.com/videoplayer/vi4152690201'
+  },
+  cast: [
+    {
+      actor: 'Jesse Eisenberg',
+      actor_id: 'nm0251986',
+      character: 'Mark Zuckerberg'
+    },
+    {
+      actor: 'Rooney Mara',
+      actor_id: 'nm1913734',
+      character: 'Erica Albright'
+    },
+    {
+      actor: 'Bryan Barter',
+      actor_id: 'nm3728884',
+      character: 'Billy Olson'
+    },
+    {
+      actor: 'Dustin Fitzsimons',
+      actor_id: 'nm2951481',
+      character: 'Phoenix Club President'
+    },
+    {
+      actor: 'Joseph Mazzello',
+      actor_id: 'nm0001515',
+      character: 'Dustin Moskovitz'
+    },
+    {
+      actor: 'Patrick Mapel',
+      actor_id: 'nm2557308',
+      character: 'Chris Hughes'
+    },
+    {
+      actor: 'Andrew Garfield',
+      actor_id: 'nm1940449',
+      character: 'Eduardo Saverin'
+    },
+    {
+      actor: 'Toby Meuli',
+      actor_id: 'nm1114723',
+      character: 'Phoenix Member Playing Facemash'
+    },
+    {
+      actor: 'Alecia Svensen',
+      actor_id: 'nm4087600',
+      character: 'Girl at Phoenix Club'
+    },
+    {
+      actor: 'Jami Owen',
+      actor_id: 'nm4088378',
+      character: 'Student Playing Facemash'
+    },
+    {
+      actor: 'James Dastoli',
+      actor_id: 'nm1498872',
+      character: 'Student Playing Facemash'
+    },
+    {
+      actor: 'Robert Dastoli',
+      actor_id: 'nm1498874',
+      character: 'Student Playing Facemash'
+    },
+    {
+      actor: 'Scotty Crowe',
+      actor_id: 'nm2590079',
+      character: 'Student Playing Facemash'
+    },
+    {
+      actor: 'Jayk Gallagher',
+      actor_id: 'nm1879820',
+      character: 'Student Playing Facemash'
+    },
+    {
+      actor: 'Marcella Lentz-Pope',
+      actor_id: 'nm1719288',
+      character: "Erica's Roommate"
+    }
+  ],
+  technical_specs: [
+    [ 'Runtime', '2 hr (120 min)' ],
+    [ 'Sound Mix', 'Dolby Digital | DTS | SDDS | Dolby Surround 7.1' ],
+    [ 'Color', 'Color' ],
+    [ 'Aspect Ratio', '2.39 : 1' ],
+    [
+      'Camera',
+      'Red One MX, Zeiss Master Prime and Angenieux Optimo Lenses'
+    ],
+    [
+      'Laboratory',
+      'DeLuxe, Hollywood (CA), USA (prints) <br> LightIRON Digital, Los Angeles (CA), USA (digital intermediate)'
+    ],
+    [ 'Film Length', '3,184 m (Portugal, 35 mm)' ],
+    [ 'Negative Format', 'Redcode RAW' ],
+    [
+      'Cinematographic Process',
+      'Digital Intermediate (2K) (master format) <br> Redcode RAW (4.5K) (source format)'
+    ],
+    [
+      'Printed Film Format',
+      '35 mm (anamorphic) (Fuji Eterna-CP 3513DI) <br> D-Cinema'
+    ]
+  ]
+}

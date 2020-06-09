@@ -1,0 +1,137 @@
+<%- include('../partials/header'); -%>
+<!-- <script style="text/css" src="movie_template.css"></script> -->
+<link rel="stylesheet" type="text/css" href="movie_template.css">
+<div class="" style=" border :none ">
+    <!--making body content for the site page -->
+    <h1>
+        <strong> <%= movie_object.title %> </strong>
+    </h1>
+    <table style="width: 100%;" class="t1">
+        <th>
+        <img src= " <%= movie_object.poster %> " alt=" <%= movie_object.title %> "   class="image" >
+        </th>
+        <th>
+            <div style="text-align: center;border: none;"><h2><Strong>Description</Strong></h2><!--writing Description for the site--></div>
+        <p class = "dis">
+            <%= movie_object.plot %>
+        </p>
+        </th>
+        <th>
+            <div  style="background-color: none; border: none;">
+                <p style="text-align: center; ">Trailer</p>
+                <p>link : <a href="<%= movie_object.trailer.link %>"><%= movie_object.trailer.link %></a> > </p>
+                <!-- <video  src=type="video/mp4" contros ></video> -->
+                <!-- <video style="text-align: center;" width="320" height="240" controls='controls'>
+                    <source src= "<%= movie_object.trailer.link %> " type="video/mp4">
+                    <source src="<%= movie_object.trailer.link %> " type="video/ogg">
+                  Your browser does not support the video tag.
+                  </video> -->
+            </div>
+        </th>
+    </table >
+    <h2><strong>Cast</strong></h2><!--star cast in the movie-->
+    <table style="width:100%" class="t2">
+        <tr>
+            <th>S.No.</th>
+            <th>Star Cast</th>
+            <!-- <th>Character Name</th> -->
+            <th>Picture</th>
+        </tr>
+        <% var i = 0; %> 
+        <% movie_object.cast.forEach(function(actor){ %>
+            <tr>
+                <th><%= ++i %> </th>
+                <th><a href= '"https://en.wikipedia.org/wiki/" + " <%= actor.actor %> " ' > <%= actor.actor %></a></th>
+                <th>image</th>
+            </tr>
+
+        <%  }); %> 
+        
+    </table>
+    <h2><strong>Movie Detail</strong></h2><!--movie detail-->
+    <table style="width:100%" class="t3">
+
+            <tr>
+                <th>1.</th>
+                <th>Director</th>
+                <th>David Fincher</th>
+            </tr>
+            <tr>
+                <th>2.</th>
+                <th>Producer</th>
+                <th>	
+                    Scott Rudin, 
+                    Dana Brunetti, 
+                    Michael De Luca, 
+                    Ceán Chaffin
+                </th>
+            </tr>
+            <tr>
+                <th>3.</th>
+                <th>Production Companies</th>
+                <th>
+                    Columbia Pictures, 
+                    Relativity Media
+                </th>
+            
+            </tr>
+            <tr>
+                <th>4.</th>
+                <th>Release Year</th>
+                <th><%= movie_object.year %></th>
+            </tr>
+    
+            <tr>
+                <th>5.</th>
+                <th>Country</th>
+                <th>United States</th>
+            </tr>
+            <tr>
+                <th>6.</th>
+                <th>language availabe</th>
+                <th>English</th>
+            </tr>
+            <tr>
+                <th>7.</th>
+                <th>Budget</th>
+                <th>$40 million</th>
+            </tr>
+            <tr>
+                <th>8.</th>
+                <th>Box office</th>
+                <th>$224.9 million</th>
+            </tr>
+            <tr>
+                <th>9.</th>
+                <th>Length</th>
+                <th><%= movie_object.length%></th>
+            </tr>
+        
+    </table>
+    <h2><strong>Rating</strong></h2><!--Rating column-->
+    <table class="t4">
+        <tr>
+            <th>S.No.</th>
+            <th>Name</th>
+            <th>Mark</th>
+        </tr>
+        <tr>
+            <th>1.</th>
+            <th>IMDb</th>
+            <th><%= movie_object.rating %>/10</th>
+        </tr>
+        <tr>
+            <th>2.</th>
+            <th>Rotten Tomatoes</th>
+            <th>96&percnt;</th>
+        </tr>
+        <tr>
+            <th>3.</th>
+            <th>Rating Votes</th>
+            <th><%= movie_object.rating_votes %></th>
+        </tr>
+    </table>
+    
+</div>
+
+<%- include('../partials/footer'); -%>
